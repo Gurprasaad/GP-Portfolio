@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gurprasaad Hora | CS &amp; Engineering · Mobile · AI</title>
+  <meta name="description" content="Computer Science and Engineering New-Grad focused on mobile development, computer vision, and AI. Santa Clara University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#" class="nav-logo">GH</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-label">Computer Science &amp; Engineering · Santa Clara University</p>
+        <h1 class="hero-title">Gurprasaad Hora</h1>
+        <p class="hero-tagline">New-Grad passionate about <strong>mobile development</strong>, <strong>computer vision</strong>, and <strong>AI</strong>—building user-focused applications with a strong foundation in both engineering and research.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/profile.png" alt="Gurprasaad Hora" class="hero-photo">
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <img src="assets/about.png" alt="Gurprasaad Hora" class="about-photo">
+          <div class="about-text">
+            <p>I am a Computer Science and Engineering student at Santa Clara University (Class of 2026) with experience in iOS development, AI research, and full-cycle product development.</p>
+            <p>I have interned at <strong>Dexcom</strong> on the Stelo iOS app (140K+ users), served as an <strong>AI Researcher</strong> at SCU on adaptive coaching systems, and led iOS and IoT development at <strong>Glocol Networks</strong>. I also founded and built <strong>ArcVision</strong>, a basketball training app downloaded by 500 users and demoed to 130K users.</p>
+            <p>I am seeking full-time opportunities in mobile development, computer vision, AI, or product management where I can deliver impactful, user-centred products and software.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Sep 2025 – Present</span>
+              <h3>AI Researcher</h3>
+              <p class="timeline-org">Santa Clara University</p>
+              <p>Conducting AI research with Dr. Hsiao on ArcVision, an adaptive AI basketball coaching mobile app. Evaluating computer vision, multi-modal learning, and RAG-based systems to design scalable, real-time performance coaching architectures.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jun 2025 – Sep 2025</span>
+              <h3>Mobile Developer Engineering Intern</h3>
+              <p class="timeline-org">Dexcom</p>
+              <p>Developed and enhanced the Stelo iOS app used by 140K+ users. Migrated Troubleshooting Tips from UIKit to SwiftUI, built an in-app feedback prompt for in-range glucose readings, and led development of time-segmented glucose analytics for actionable insights.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2024 – Dec 2024</span>
+              <h3>iOS Developer / IoT Engineer Intern</h3>
+              <p class="timeline-org">Glocol Networks</p>
+              <p>Led feature development for PeopleSense, a train occupancy iOS app. Integrated real-time location and Firebase auth, flashed and deployed IoT devices for transit systems, and supported sensor-based people counting for public safety.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <video class="project-video" src="assets/Mimica.mov" controls preload="metadata" playsinline>
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-body">
+              <h3>Mimica – ESP32 Voice Translation Necklace</h3>
+              <p class="project-meta">Senior Design Capstone project · Wearable AI · In progress</p>
+              <p>Wearable AI-powered voice translation device built on ESP32-S3 microcontroller that captures speech, translates it in real-time using cloud-based machine learning services hosted on AWS, and outputs the translation through voice cloning technology.</p>
+              <dl class="project-tech">
+                <dt>Hardware</dt>
+                <dd>ESP32-S3 microcontroller, INMP441 I2S MEMS microphone, MAX98357A I2S amplifier, custom enclosure</dd>
+                <dt>AI services</dt>
+                <dd>ByteDance ASR for speech recognition, MarianMT for neural translation, XTTS v2 for voice-cloned TTS</dd>
+              </dl>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <video class="project-video" src="assets/arcvision_demo.MOV" controls preload="metadata" playsinline>
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-body">
+              <h3>ArcVision</h3>
+              <p class="project-meta">Basketball Training App · Mar 2024 – Present</p>
+              <p>iOS basketball training app using Apple's Vision framework and computer vision; 500+ downloads. Shooting, dribbling, and defense modes; CreateML shot detection; Coach Stark AI chatbot (Gemini API); marketing site at arcvision.app. Demoed on TikTok with 130K+ views.</p>
+              <a href="https://arcvision.app/" class="project-link" target="_blank" rel="noopener">arcvision.app →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <a href="https://apps.apple.com/ph/app/thriving-fitness-app/id6475610149" class="project-media project-media-link" target="_blank" rel="noopener">
+              <img src="assets/thriving-preview.png" alt="Thriving Fitness App — Fitness Navigation, Gym Visits Log, Progress, Fitness Tracker, Movement" class="project-preview-img">
+            </a>
+            <div class="project-body">
+              <h3>Thriving</h3>
+              <p class="project-meta">Personal Fitness App · Jun 2023 – Jan 2024</p>
+              <p>iOS fitness app with Swift, SwiftUI, and Core Data. HealthKit integration for real-time fitness metrics, data-driven progress tracking, image storage, and streamlined workout recordings.</p>
+              <a href="https://apps.apple.com/ph/app/thriving-fitness-app/id6475610149" class="project-link" target="_blank" rel="noopener">View on App Store →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-group">
+          <h4>Languages</h4>
+          <ul class="skill-tags">
+            <li>Swift</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h4>Technologies &amp; Frameworks</h4>
+          <ul class="skill-tags">
+            <li>SwiftUI</li>
+            <li>UIKit</li>
+            <li>Core Data</li>
+            <li>Firebase</li>
+            <li>HealthKit</li>
+            <li>Vision</li>
+            <li>MediaPipe</li>
+            <li>OpenCV</li>
+            <li>CreateML</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h4>Coursework</h4>
+          <p class="skills-coursework">Data Structures, Algorithms, Compilers, Operating Systems, Computer Networks, Embedded Systems, Logic Design, Digital IC Design, Statistics, Computer Architecture, Electric Circuits</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-intro">Feel free to reach out. I am open to full-time roles in mobile development, computer vision, AI, and product management.</p>
+        <div class="contact-links">
+          <a href="mailto:gur.hora@gmail.com" class="contact-item">gur.hora@gmail.com</a>
+          <a href="https://www.linkedin.com/in/gurprasaad-hora/" class="contact-item" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" class="contact-item">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Gurprasaad Hora. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
